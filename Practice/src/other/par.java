@@ -8,13 +8,19 @@ public class par {
 		
 		
 		
+		int[] arr = {10, 30, 650, 225, 2};
+		System.out.println(Arrays.toString(arr));
+		System.out.println(arr);
 		
-		String a = "가나다라마바사";
-		int b = a.indexOf("마바");
-		System.out.println(b);
+		Arrays.sort(arr);
+		System.out.println(Arrays.toString(arr));
 		
-		String c = a.substring(0,2);
-		System.out.println(c);
+		
+		
+		
+		
+		
+		
 		
 	}
 
